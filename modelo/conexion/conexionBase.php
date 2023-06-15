@@ -10,10 +10,10 @@ class conexionBase{
     public function __construct(){
 //Constructor
         require_once "configDb.php";
-        $this->host=HOST;
-        $this->user=USER;
-        $this->password=PASSWORD;
-        $this->database=DATABASE;
+        $this->host=localhost;
+        $this->user=grupo1;
+        $this->password=123;
+        $this->database=base1;
 
     }
 
